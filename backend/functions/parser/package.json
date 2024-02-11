@@ -1,0 +1,23 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "for collect attendance at fitness club",
+  "main": "index.js",
+  "author": {
+    "name": "Evgeniy Politiko",
+    "email": "Jhon-mosk@yandex.ru",
+    "url": "https://jhon-mosk.ru/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@yandex-cloud/nodejs-sdk": "^2.6.0",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "logger-for-yc-functions": "^1.2.0",
+    "ydb-sdk": "^5.1.1"
+  },
+  "engines": {
+    "node": "^18.0.0",
+    "npm": ">=7.24.2"
+  }
+}
